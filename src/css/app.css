@@ -1,0 +1,137 @@
+#root {
+  color: #343a38;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica Neue, Helvetica, Arial;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/*HEADER AND NAVIGATION*/
+header {
+  /*background-color: #CBF3F0;*/
+  padding: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+header img {
+  margin: 0 auto 0 auto;
+  max-height: 120px;
+}
+
+.nav_bar {
+  margin: 0 auto 0 auto;
+  padding: 15px;
+  width: 60%;
+  font-family: Arial;
+}
+
+.nav_item {
+  margin: 40px;
+  text-decoration: none;
+  color: #000000;
+  font-family: "Liberation Mono";
+  padding: 15px 25px;
+}
+
+a.nav_item:hover {
+  background-color: #CBF3F0;
+}
+
+.main_container {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 0;
+}
+
+
+/*SIDEBAR*/
+.sidebar_container {
+  flex: 1;
+}
+
+.sidebar_item {
+  margin-left: 10%;
+  margin-bottom: 20px;
+  background-color: #CBF3F0;
+  padding: 3%;
+  text-align: center;
+}
+
+.sidebar_item img {
+  max-width: 90%;
+}
+
+/*FEEDITEM AND RECIPE*/
+.feed_recipe_img {
+  display: inline-block;
+  width: 60%;
+  max-width: 60%;
+}
+
+.feed_recipe_descr {
+  display: inline-block;
+  width: 27%;
+  padding-left: 3%;
+  vertical-align: top;
+  font-size: large;
+  margin-top: 0;
+}
+
+.feed_container {
+  flex: 3;
+}
+
+.readmore {
+  text-decoration: none;
+  color: black;
+  text-align: left;
+  font-size: large;
+}
+
+.dishName {
+  display: block;
+  font-size: xx-large;
+}
+
+a.dishName:hover {
+  background-color: #CBF3F0;
+}
+
+footer {
+  background-color: #cacaca;
+}
+
+/*ABOUT PAGE*/
+
+.about_container {
+  flex: 3;
+}
+
+.about_photo {
+  margin: 0 auto 0 auto;
+  display: block;
+  max-width: 100%;
+}
+
+.about_text {
+  text-align: left;
+  font-size: large;
+  font-family: Helvetica Neue, Helvetica, Arial;
+}
+
+.about_content {
+  margin: auto;
+  width: 50%;
+}
