@@ -6,7 +6,7 @@ export const postsData = [
     {
         id: 1,
         title: "New raw cheesecake",
-        photo: "image_id",
+        photoUrl: "food_salad.jpg",
         abstract: "This is super duper new raw cheesecake for Sashechka and for those who don't eat sugar. Here " +
             
         "is the recipe...",
@@ -37,7 +37,7 @@ export const postsData = [
     {
         id: 2,
         title: "New raw cheesecake",
-        photo: "image_id",
+        photoUrl: "food_salad.jpg",
         abstract: "This is super duper new raw cheesecake for Sashechka and for those who don't eat sugar. Here " +
 
         "is the recipe...",
@@ -68,7 +68,7 @@ export const postsData = [
     {
         id: 3,
         title: "New raw cheesecake",
-        photo: "image_id",
+        photoUrl: "food_salad.jpg",
         abstract: "This is super duper new raw cheesecake for Sashechka and for those who don't eat sugar. Here " +
 
         "is the recipe...",
@@ -99,7 +99,7 @@ export const postsData = [
     {
         id: 4,
         title: "New raw cheesecake",
-        photo: "image_id",
+        photoUrl: "food_salad.jpg",
         abstract: "This is super duper new raw cheesecake for Sashechka and for those who don't eat sugar. Here " +
 
         "is the recipe...",
@@ -130,7 +130,7 @@ export const postsData = [
     {
         id: 5,
         title: "New raw cheesecake",
-        photo: "image_id",
+        photoUrl: "food_salad.jpg",
         abstract: "This is super duper new raw cheesecake for Sashechka and for those who don't eat sugar. Here " +
 
         "is the recipe...",

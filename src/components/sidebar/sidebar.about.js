@@ -6,8 +6,9 @@ import React from 'react';
 const SidebarAbout = () => {
     return (
         <section className='sidebar_item'>
-            <img src="/dashenka.about.jpg"/>
-            <p>Hello! My name is Dashenka. I am healthy food lover. Welcome!</p>
+            <div className='sidebar_placeholder_top'>Hello!</div>
+            <p>Hello! My name is Daria. I am healthy and tasty food lover. 
+                Here I am going to share my mostly plant-based(not only vegan) results of my experiments. Welcome!</p>
         </section>
     );
 };

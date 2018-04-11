@@ -9,7 +9,7 @@ const SidebarSuggestion = (props) => {
     return (
         <section className="sidebar_item">
             <p>{props.text}</p>
-            <a href="#">{props.name}</a>
+            <a className='sidebar_heading' href="#">{props.name}</a>
             <img src={props.imgUrl}/>
         </section>
     )

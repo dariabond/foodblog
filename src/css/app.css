@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Helvetica Neue, Helvetica, Arial;
+  font-family: 'Gentium Basic', serif;
 }
 
 .app {
@@ -28,7 +28,7 @@ header img {
 }
 
 .nav_bar {
-  margin: 0 auto 0 auto;
+  margin: 0 auto 3% auto;
   padding: 15px;
   width: 60%;
   font-family: Arial;
@@ -43,7 +43,7 @@ header img {
 }
 
 a.nav_item:hover {
-  background-color: #CBF3F0;
+  background-color: #B0D354;
 }
 
 .main_container {
@@ -64,16 +64,30 @@ a.nav_item:hover {
 .sidebar_item {
   margin-left: 10%;
   margin-bottom: 20px;
-  background-color: #CBF3F0;
   padding: 3%;
-  text-align: center;
+  text-align: justify;
+}
+
+.sidebar_placeholder_top {
+  background-color: #B0D354;
+  color: #B0D354;
+  width: 100%;
+  height: 3%;
+  padding: 4% 0 4% 0;
 }
 
 .sidebar_item img {
-  max-width: 90%;
+  max-width: 100%;
+}
+
+.sidebar_heading {
+  text-align: left;
 }
 
 /*FEEDITEM AND RECIPE*/
+.feedPost {
+}
+
 .feed_recipe_img {
   display: inline-block;
   width: 60%;
@@ -82,11 +96,13 @@ a.nav_item:hover {
 
 .feed_recipe_descr {
   display: inline-block;
-  width: 27%;
+  width: 35%;
   padding-left: 3%;
   vertical-align: top;
   font-size: large;
   margin-top: 0;
+  text-align: justify;
+  line-height: 1.6;
 }
 
 .feed_container {
@@ -98,15 +114,19 @@ a.nav_item:hover {
   color: black;
   text-align: left;
   font-size: large;
+  font-style: italic;
 }
 
-.dishName {
-  display: block;
+.dishname {
+  display: inline-block;
   font-size: xx-large;
+  margin-bottom: 4%;
+  vertical-align: top;
+  text-transform: uppercase;
 }
 
-a.dishName:hover {
-  background-color: #CBF3F0;
+a.dishname:hover {
+  background-color: #B0D354;
 }
 
 footer {
@@ -128,10 +148,10 @@ footer {
 .about_text {
   text-align: left;
   font-size: large;
-  font-family: Helvetica Neue, Helvetica, Arial;
 }
 
 .about_content {
   margin: auto;
   width: 50%;
 }
+/*Aliases for the colors*/

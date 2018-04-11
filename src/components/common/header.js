@@ -7,7 +7,7 @@ const Header = props => {
     return (
         <header>
             <img src="/pretzel.png"/>
-            <p className="headerSignature">Welcome to Daria's food blog!</p>
+            <h3 className="headerSignature">WELCOME TO DARIA'S FOOD BLOG!</h3>
             <nav className="nav_bar">
                 <a className="nav_item" href="/">Home</a>
                 <a className="nav_item" href="index.html">Recipes</a>
