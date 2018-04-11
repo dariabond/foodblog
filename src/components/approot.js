@@ -4,7 +4,7 @@
 import React, { Component } from 'react';
 import Header from './common/header.js';
 import RoutesContainer from './routes.js';
-import {getMainPageData} from '../data/testDataSource.js';
+import {getMainPageData} from '../data/test_datasource.js';
 
 class AppRoot extends React.Component {
     constructor(props) {

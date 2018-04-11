@@ -2,7 +2,7 @@
  * Created by dariabondarchuk on 3/12/18.
  */
 import React, {Component} from 'react';
-import {getAboutData} from '../../data/testDataSource.js';
+import {getAboutData} from '../../data/test_datasource.js';
 
 class AboutContainer extends React.Component {
     constructor () {

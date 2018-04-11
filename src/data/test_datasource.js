@@ -1,7 +1,7 @@
 /**
  * Created by dariabondarchuk on 2/27/18.
  */
-import {postsData, aboutData} from './testData.js';
+import {postsData, aboutData} from './test_data.js';
 
 export function getMainPageData() {
     return new Promise(function (resolve, reject) {
