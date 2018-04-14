@@ -15,10 +15,3 @@ const HomeContainer = props => {
 };
 //TODO read about adding sidebar on the certain routes
 export default HomeContainer;
-
-/*
-<div className="main_container">
-    <RecipeFeed posts={props.posts}/>
-    <SideBar/>
-</div>
-*/

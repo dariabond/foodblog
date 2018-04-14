@@ -5,7 +5,7 @@ import React from 'react';
 const FeedItem = props => {
     return (
         <section className="feedPost">
-            <a className="dishname">SWEET POTATO BOWL</a>
+            <a className="dishname heading_gen">SWEET POTATO BOWL</a>
 
             <div>
                 <img className="feed_recipe_img" src={props.postInfo.photoUrl} alt="Yummy food"/>

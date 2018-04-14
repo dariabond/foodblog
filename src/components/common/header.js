@@ -10,7 +10,7 @@ const Header = props => {
             <h3 className="headerSignature">WELCOME TO DARIA'S FOOD BLOG!</h3>
             <nav className="nav_bar">
                 <a className="nav_item" href="/">Home</a>
-                <a className="nav_item" href="index.html">Recipes</a>
+                <a className="nav_item" href="/recipes">Recipes</a>
                 <a className="nav_item" href="/about">About</a>
                 <a className="nav_item" href="index.html">Store</a>
                 <a className="nav_item" href="index.html">Blog</a>

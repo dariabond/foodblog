@@ -119,18 +119,12 @@ a.nav_item:hover {
 
 .dishname {
   display: inline-block;
-  font-size: xx-large;
   margin-bottom: 4%;
   vertical-align: top;
-  text-transform: uppercase;
 }
 
 a.dishname:hover {
   background-color: #B0D354;
-}
-
-footer {
-  background-color: #cacaca;
 }
 
 /*ABOUT PAGE*/
@@ -155,3 +149,13 @@ footer {
   width: 50%;
 }
 /*Aliases for the colors*/
+
+.heading_gen {
+  font-size: xx-large;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+footer {
+  background-color: #cacaca;
+}

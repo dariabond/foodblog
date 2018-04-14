@@ -13,19 +13,17 @@ class AboutContainer extends React.Component {
     componentDidMount() {
         const self = this;
         getAboutData().then((data) => {
-            console.log("DATA");
-            console.log(data);
             this.setState(data);
         });
     }
     
     
-    //TODO put the if statement here in case of lack of the data
+    //TODO put the if statement here in case theres no data
     render () {
         const toRender = (Object.keys(this.state).length > 0)?
             (
                 <div className='about_content'>
-                    <h1>ABOUT ME</h1>
+                    <p className="heading_gen">ABOUT ME</p>
                     <img className="about_photo" src={this.state.photoUrl}/>
                     <p className='about_text'>{this.state.text}</p>
                 </div>
