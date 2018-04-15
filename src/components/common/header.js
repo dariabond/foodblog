@@ -12,8 +12,8 @@ const Header = props => {
                 <a className="nav_item" href="/">Home</a>
                 <a className="nav_item" href="/recipes">Recipes</a>
                 <a className="nav_item" href="/about">About</a>
-                <a className="nav_item" href="index.html">Store</a>
-                <a className="nav_item" href="index.html">Blog</a>
+                <a className="nav_item" href="/">Store</a>
+                <a className="nav_item" href="/">Blog</a>
             </nav>
         </header>
     )

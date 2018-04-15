@@ -2,10 +2,11 @@
  * Created by dariabondarchuk on 3/12/18.
  */
 import React from 'react';
+import {Link} from 'react-router-dom';
 const FeedItem = props => {
     return (
         <section className="feedPost">
-            <a className="dishname heading_gen">SWEET POTATO BOWL</a>
+            <Link className="dishname heading_gen" to='/recipes/1'>SWEET POTATO BOWL</Link>
 
             <div>
                 <img className="feed_recipe_img" src={props.postInfo.photoUrl} alt="Yummy food"/>
@@ -23,5 +24,4 @@ const FeedItem = props => {
     );
 };
 
-//src="https://images.pexels.com/photos/76093/pexels-photo-76093.jpeg"
 export default FeedItem;

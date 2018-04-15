@@ -6,6 +6,7 @@ import Header from './common/header.js';
 import RoutesContainer from './routes.js';
 import {getMainPageData} from '../data/test_datasource.js';
 
+//TODO rename postsData
 class AppRoot extends React.Component {
     constructor(props) {
         //class components should always call base constructor with props

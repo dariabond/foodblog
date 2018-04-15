@@ -7,7 +7,7 @@ import SideBar from './sidebar/sidebar.js';
 
 const HomeContainer = props => {
     return (
-        <div class="main_container">
+        <div className="main_container">
             <RecipeFeed posts={props.posts}/>
             <SideBar/>
         </div>
