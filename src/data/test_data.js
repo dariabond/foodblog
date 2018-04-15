@@ -16,7 +16,7 @@ export const postsData = [
                 "is the recipe you are definitely gonna enjoy."
             },
             {
-                image: "image_id"
+                image: "/food_salad.jpg"
             },
             {
                 list: [
@@ -47,7 +47,7 @@ export const postsData = [
                 "is the recipe you are definitely gonna enjoy."
             },
             {
-                image: "image_id"
+                image: "/food_salad.jpg"
             },
             {
                 list: [
@@ -74,11 +74,14 @@ export const postsData = [
         "is the recipe...",
         articleOrder: [
             {
+                image: "/food_salad.jpg"
+            },
+            {
                 text: "This is super duper new raw cheesecake for Sashechka and for those who don't eat sugar. Here " +
                 "is the recipe you are definitely gonna enjoy."
             },
             {
-                image: "image_id"
+                image: "/food_salad.jpg"
             },
             {
                 list: [
@@ -109,7 +112,7 @@ export const postsData = [
                 "is the recipe you are definitely gonna enjoy."
             },
             {
-                image: "image_id"
+                image: "/food_salad.jpg"
             },
             {
                 list: [
@@ -140,7 +143,7 @@ export const postsData = [
                 "is the recipe you are definitely gonna enjoy."
             },
             {
-                image: "image_id"
+                image: "/food_salad.jpg"
             },
             {
                 list: [
@@ -165,5 +168,7 @@ export const aboutData = {
     "Sometimes my cookery is more healthy, sometimes less, I am usually trying to keep it balanced=) Hope you enjoy.",
     photoUrl: "/about_portrait.jpg"
 };
+
+export const postData = postsData[2];
 
 export default {};
