@@ -3,17 +3,21 @@
  */
 
 import React from 'react';
+import {Link} from 'react-router-dom';
 const Header = props => {
     return (
         <header>
-            <img src="/pretzel.png"/>
+            
+            <Link to='/'>
+                <img src="/pretzel.png"/>
+            </Link>
             <h3 className="headerSignature">WELCOME TO DARIA'S FOOD BLOG!</h3>
             <nav className="nav_bar">
-                <a className="nav_item" href="/">Home</a>
-                <a className="nav_item" href="/recipes">Recipes</a>
-                <a className="nav_item" href="/about">About</a>
-                <a className="nav_item" href="/">Store</a>
-                <a className="nav_item" href="/">Blog</a>
+                <Link className="nav_item" to="/">Home</Link>
+                <Link className="nav_item" to="/recipes">Recipes</Link>
+                <Link className="nav_item" to="/about">About</Link>
+                <Link className="nav_item" to="/">Store</Link>
+                <Link className="nav_item" to="/">Blog</Link>
             </nav>
         </header>
     )
