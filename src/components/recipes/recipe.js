@@ -45,9 +45,9 @@ class Recipe extends React.Component {
                     listItems.push(<li>{ingredientItem}</li>);
                 });
                 result.push(
-                    <div>
+                    <div className="recipe_list_container">
                         <p>INGREDIENTS</p>
-                        <ul>
+                        <ul className='recipe_list'>
                             {listItems}
                         </ul>
                     </div>
@@ -64,7 +64,7 @@ class Recipe extends React.Component {
         return (
             <div className="main_container">
                 <div className='recipe_container'>
-                    <p className="heading_gen">SWEET POTATO BOWL</p>
+                    <p className="heading_gen dishname">SWEET POTATO BOWL</p>
                     {content}
                 </div>
                 <SideBar/>

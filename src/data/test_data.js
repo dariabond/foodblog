@@ -5,6 +5,8 @@
 export const postsData = [
     {
         id: 1,
+        category: "dessert",
+        tags: ['dessert', 'raw', 'vegan', 'no gluten'],
         title: "New raw cheesecake",
         photoUrl: "food_salad.jpg",
         abstract: "This is super duper new raw cheesecake for Sashechka and for those who don't eat sugar. Here " +
@@ -32,10 +34,18 @@ export const postsData = [
                 text: "Dip cashew nuts in the warm water for 2-3 hours and then blend until it is coft and creamy"
             }
         ],
-        likes: 200
+        comments: [
+            {
+                authorName: "Julia",
+                authorEmail: "jukanina@gmail.com",
+                text: "This is superdelicious recipe! Thank you!"
+            }
+        ]
     },
     {
         id: 2,
+        category: "dessert",
+        tags: ['dessert', 'raw', 'vegan', 'no gluten'],
         title: "New raw cheesecake",
         photoUrl: "food_salad.jpg",
         abstract: "This is super duper new raw cheesecake for Sashechka and for those who don't eat sugar. Here " +
@@ -63,10 +73,18 @@ export const postsData = [
                 text: "Dip cashew nuts in the warm water for 2-3 hours and then blend until it is coft and creamy"
             }
         ],
-        likes: 200
+        comments: [
+            {
+                authorName: "Julia",
+                authorEmail: "jukanina@gmail.com",
+                text: "This is superdelicious recipe! Thank you!"
+            }
+        ]
     },
     {
         id: 3,
+        category: "dessert",
+        tags: ['dessert', 'raw', 'vegan', 'no gluten'],
         title: "New raw cheesecake",
         photoUrl: "food_salad.jpg",
         abstract: "This is super duper new raw cheesecake for Sashechka and for those who don't eat sugar. Here " +
@@ -97,10 +115,18 @@ export const postsData = [
                 text: "Dip cashew nuts in the warm water for 2-3 hours and then blend until it is coft and creamy"
             }
         ],
-        likes: 200
+        comments: [
+            {
+                authorName: "Julia",
+                authorEmail: "jukanina@gmail.com",
+                text: "This is superdelicious recipe! Thank you!"
+            }
+        ]
     },
     {
         id: 4,
+        category: "dessert",
+        tags: ['dessert', 'raw', 'vegan', 'no gluten'],
         title: "New raw cheesecake",
         photoUrl: "food_salad.jpg",
         abstract: "This is super duper new raw cheesecake for Sashechka and for those who don't eat sugar. Here " +
@@ -128,10 +154,18 @@ export const postsData = [
                 text: "Dip cashew nuts in the warm water for 2-3 hours and then blend until it is coft and creamy"
             }
         ],
-        likes: 200
+        comments: [
+            {
+                authorName: "Julia",
+                authorEmail: "jukanina@gmail.com",
+                text: "This is superdelicious recipe! Thank you!"
+            }
+        ]
     },
     {
         id: 5,
+        category: "dessert",
+        tags: ['dessert', 'raw', 'vegan', 'no gluten'],
         title: "New raw cheesecake",
         photoUrl: "food_salad.jpg",
         abstract: "This is super duper new raw cheesecake for Sashechka and for those who don't eat sugar. Here " +
@@ -159,7 +193,13 @@ export const postsData = [
                 text: "Dip cashew nuts in the warm water for 2-3 hours and then blend until it is coft and creamy"
             }
         ],
-        likes: 200
+        comments: [
+            {
+                authorName: "Julia",
+                authorEmail: "jukanina@gmail.com",
+                text: "This is superdelicious recipe! Thank you!"
+            }
+        ]
     }
 ];
 

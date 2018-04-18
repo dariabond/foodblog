@@ -9,17 +9,23 @@ const FeedItem = props => {
             <Link className="dishname heading_gen" to='/recipes/1'>SWEET POTATO BOWL</Link>
 
             <div>
-                <img className="feed_recipe_img" src={props.postInfo.photoUrl} alt="Yummy food"/>
+                <Link to='/recipes/1'>
+                    <img className="feed_recipe_img" src={props.postInfo.photoUrl} alt="Yummy food"></img>
+                </Link>
 
                 <p className="feed_recipe_descr">This is the recipe of the delicious sweet potato bowl. You are bound to
                     love it from the first bite.
                     <br/><br/>
-                    <a className="readmore" href="#">Read more...</a>
+                    <Link className="readmore" to='/recipes/1'>Read more...</Link>
                 </p>
             </div>
+
+            <div>
+                <p className='feed_tags'>Tags: {props.postInfo.tags.join(', ')}</p>
+                <p className='feed_comments'>Comments: {props.postInfo.hasOwnProperty('comments')?props.postInfo.comments.length:0}</p>
+            </div>
             
-            <br/><br/>
-            <h3>Likes: {props.postInfo.likes}</h3>
+            
         </section>
     );
 };

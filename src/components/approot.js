@@ -37,7 +37,7 @@ class AppRoot extends React.Component {
             <div className="app">
                 <Header name={this.state.name}/>
                 {toRender}
-                <footer>This is the footer.</footer>
+                <footer className="footer_text">Made by <a href="">Daria Bondarchuk</a></footer>
             </div>
         )
     }
